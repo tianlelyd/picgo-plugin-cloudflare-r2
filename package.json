@@ -1,0 +1,21 @@
+{
+  "name": "@tianlelyd/picgo-plugin-cloudflare-r2",
+  "version": "1.0.1",
+  "description": "PicGo plugin for uploading images to Cloudflare R2",
+  "main": "index.js",
+  "keywords": [
+    "picgo",
+    "picgo-plugin",
+    "cloudflare",
+    "r2"
+  ],
+  "author": "tianlelyd",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.654.0",
+    "@aws-sdk/s3-request-presigner": "^3.654.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
